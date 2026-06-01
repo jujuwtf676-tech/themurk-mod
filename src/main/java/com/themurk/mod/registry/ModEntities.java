@@ -16,7 +16,7 @@ public class ModEntities {
     public static final RegistryObject<EntityType<MurkEntity>> MURK =
         ENTITIES.register("murk", () ->
             EntityType.Builder.<MurkEntity>of(MurkEntity::new, MobCategory.MONSTER)
-                .sized(1.0f, 2.0f)
+                .sized(1.2f, 3.0f)
                 .clientTrackingRange(16)
                 .updateInterval(3)
                 .build("murk")
