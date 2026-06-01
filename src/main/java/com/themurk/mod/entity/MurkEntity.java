@@ -50,7 +50,7 @@ public class MurkEntity extends Monster {
         return Monster.createMonsterAttributes()
             .add(Attributes.MAX_HEALTH, 40.0)
             .add(Attributes.MOVEMENT_SPEED, 0.22)   // Slow — it's a stalker
-            .add(Attributes.ATTACK_DAMAGE, 3.0)      // Weak — the fear is the point
+            .add(Attributes.ATTACK_DAMAGE, 7.0)      // Weak — the fear is the point
             .add(Attributes.FOLLOW_RANGE, 64.0)
             .add(Attributes.KNOCKBACK_RESISTANCE, 1.0); // Can't be knocked back
     }
