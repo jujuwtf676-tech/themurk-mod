@@ -1,5 +1,6 @@
 package com.themurk.mod;
 
+import com.themurk.mod.client.renderer.MurkModel;
 import com.themurk.mod.client.renderer.MurkRenderer;
 import com.themurk.mod.registry.ModEntities;
 import net.minecraftforge.api.distmarker.Dist;
@@ -13,5 +14,10 @@ public class ClientSetup {
     @SubscribeEvent
     public static void onRegisterRenderers(EntityRenderersEvent.RegisterRenderers event) {
         event.registerEntityRenderer(ModEntities.MURK.get(), MurkRenderer::new);
+    }
+
+    @SubscribeEvent
+    public static void onRegisterLayers(EntityRenderersEvent.RegisterLayerDefinitions event) {
+        event.registerLayerDefinition(MurkModel.LAYER_LOCATION, MurkModel::createBodyLayer);
     }
 }
