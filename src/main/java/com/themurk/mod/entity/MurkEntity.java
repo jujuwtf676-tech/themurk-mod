@@ -232,9 +232,10 @@ public class MurkEntity extends Monster {
                 BlockPos pos = origin.offset(dx, 0, dz);
                 if (isLog(pos)) {
                     // Spawn scratch particles on the face of the log
-                    this.level().sendParticles(ModParticles.MURK_SCRATCH.get(),
-                        pos.getX() + 0.5, pos.getY() + 1.0, pos.getZ() + 0.5,
-                        8, 0.3, 0.5, 0.3, 0.01);
+                   ((net.minecraft.server.level.ServerLevel) this.level()).sendParticles(
+    ModParticles.MURK_SCRATCH.get(),
+    pos.getX() + 0.5, pos.getY() + 1.0, pos.getZ() + 0.5,
+    8, 0.3, 0.5, 0.3, 0.01);
                     return; // One per cycle is enough
                 }
             }
