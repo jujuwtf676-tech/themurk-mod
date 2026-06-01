@@ -1,12 +1,6 @@
 {
   "type": "forge:add_spawns",
-  "biomes": [
-    "#minecraft:is_forest",
-    "minecraft:dark_forest",
-    "minecraft:old_growth_spruce_taiga",
-    "minecraft:old_growth_pine_taiga",
-    "minecraft:deep_dark"
-  ],
+  "biomes": "minecraft:dark_forest",
   "spawners": [
     {
       "type": "themurk:murk",
