@@ -1,0 +1,46 @@
+{
+  "murk_ambient": {
+    "sounds": [
+      {
+        "name": "themurk:murk_ambient",
+        "volume": 0.6,
+        "pitch": 1.0,
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitles.themurk.murk_ambient"
+  },
+  "murk_attack": {
+    "sounds": [
+      {
+        "name": "themurk:murk_attack",
+        "volume": 1.0,
+        "pitch": 0.9,
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitles.themurk.murk_attack"
+  },
+  "murk_flee": {
+    "sounds": [
+      {
+        "name": "themurk:murk_flee",
+        "volume": 0.8,
+        "pitch": 1.2,
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitles.themurk.murk_flee"
+  },
+  "murk_appear": {
+    "sounds": [
+      {
+        "name": "themurk:murk_appear",
+        "volume": 0.9,
+        "pitch": 0.8,
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitles.themurk.murk_appear"
+  }
+}

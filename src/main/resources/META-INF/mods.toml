@@ -1,0 +1,26 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+
+[[mods]]
+    modId="themurk"
+    version="1.0.0"
+    displayName="The Murk"
+    description='''
+        Adds The Murk — a terrifying, formless horror that watches you in the night.
+        Don't look away. Don't get close.
+    '''
+
+[[dependencies.themurk]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47.2.0,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.themurk]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.21)"
+    ordering="NONE"
+    side="BOTH"

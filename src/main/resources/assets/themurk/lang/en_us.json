@@ -1,0 +1,9 @@
+{
+  "entity.themurk.murk": "The Murk",
+  "item.themurk.murk_eye": "Eye of the Murk",
+  "effect.themurk.murks_gaze": "Murk's Gaze",
+
+  "death.attack.mob.themurk.murk": "%1$s was consumed by The Murk",
+
+  "itemGroup.themurk": "The Murk"
+}
